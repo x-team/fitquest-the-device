@@ -1,0 +1,23 @@
+{
+  "name": "fitquest-the-device",
+  "version": "1.0.0",
+  "description": "FitQuest survival device",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-team/fitquest-the-device.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-team/fitquest-the-device/issues"
+  },
+  "homepage": "https://github.com/x-team/fitquest-the-device#readme",
+  "dependencies": {
+    "botkit": "^0.6.4"
+  },
+  "devDependencies": {}
+}
