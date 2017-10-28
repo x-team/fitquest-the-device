@@ -4,6 +4,7 @@
   "description": "FitQuest survival device",
   "main": "index.js",
   "scripts": {
+    "lint": "eslint ./lib --cache --ext .js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node -r dotenv/config lib/index.js"
   },
@@ -18,9 +19,14 @@
   },
   "homepage": "https://github.com/x-team/fitquest-the-device#readme",
   "dependencies": {
-    "botkit": "^0.6.4"
+    "botkit": "^0.6.4",
+    "request": "^2.83.0",
+    "winston": "^2.4.0"
   },
   "devDependencies": {
-    "dotenv": "^4.0.0"
+    "dotenv": "^4.0.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0"
   }
 }
