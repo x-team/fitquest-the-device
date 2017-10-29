@@ -7,3 +7,5 @@ services:
       dockerfile: Dockerfile
     volumes:
       - .:/home/app/code
+    ports:
+      - 8888:8888
