@@ -8,4 +8,4 @@ services:
     volumes:
       - .:/home/app/code
     ports:
-      - 8888:8888
+      - ${PORT}:8888
