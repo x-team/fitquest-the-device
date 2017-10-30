@@ -1,0 +1,33 @@
+{
+  "name": "fitquest-the-device",
+  "version": "1.0.0",
+  "description": "FitQuest survival device",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./lib --cache --ext .js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon -r dotenv/config lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/x-team/fitquest-the-device.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/x-team/fitquest-the-device/issues"
+  },
+  "homepage": "https://github.com/x-team/fitquest-the-device#readme",
+  "dependencies": {
+    "botkit": "^0.6.4",
+    "request": "^2.83.0",
+    "winston": "^2.4.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "eslint": "^4.10.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "nodemon": "^1.12.1"
+  }
+}
